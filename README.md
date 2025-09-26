@@ -1,11 +1,11 @@
-# Fuku Website
+# Fukuzushi Website
 
-Instagramギャラリーを表示するレスポンシブなWebサイトです。
+お寿司屋さんの概要を表示するレスポンシブなWebサイトです。
 
 ## 機能
 
-- レスポンシブデザイン（PC: 縦2横4、スマホ: 横2縦4）
-- 画像クリック時のズームイン機能
+- レスポンシブデザイン
+- 画像を主に表示するシンプルなサイト構成
 - Instagramアカウントへのリンク
 - モダンなUI/UX
 
@@ -31,18 +31,6 @@ npm run build
 3. ビルドコマンド: `npm run build`
 4. 公開ディレクトリ: `build`
 
-## カスタマイズ
-
-### Instagram画像の変更
-
-`src/components/InstagramGallery.js`の`sampleImages`配列を編集して、実際のInstagram画像URLに置き換えてください。
-
-### Instagramアカウントの変更
-
-`@yukigayaootukafukuzushi`を他のアカウントに変更する場合は、以下のファイルを編集してください：
-
-- `src/components/Header.js`
-- `src/components/ImageModal.js`
 
 # 福寿司 静的サイト（Netlify用）
 
