@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fukuzushi.netlify.app/sitemap.xml

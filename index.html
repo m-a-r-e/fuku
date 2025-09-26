@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>福寿司 雪が谷大塚 | 旬とお酒を楽しめる町寿司</title>
+  <meta name="description" content="東京都大田区・雪が谷大塚の福寿司。旬のネタとお酒を楽しめる町寿司。">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://fukuzushi.netlify.app/">
+  <!-- OGP -->
+  <meta property="og:title" content="福寿司 雪が谷大塚">
+  <meta property="og:description" content="東京都大田区・雪が谷大塚の福寿司。旬のネタとお酒を楽しめる町寿司。">
+  <meta property="og:image" content="https://fukuzushi.netlify.app/assets/ogp.jpg">
+  <meta property="og:url" content="https://fukuzushi.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Tailwind CDN & カスタム色 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { colors: { shuiro: '#E6452A' }}}}</script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="src/index.css">
+  <!-- Critical CSS（ヘッダー・ヒーロー） -->
+  <!-- カスタムCSSはsrc/index.cssに移動 -->
+  <!-- 構造化データ（LocalBusiness） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "福寿司",
+    "image": "https://fukuzushi.netlify.app/assets/ogp.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "南雪谷2-14-14",
+      "addressLocality": "大田区",
+      "addressRegion": "東京都",
+      "postalCode": "145-0066",
+      "addressCountry": "JP"
+    },
+    "telephone": "03-3729-5047",
+    "openingHours": "Mo-Su 11:30-14:00,17:00-22:00",
+    "priceRange": "",
+    "geo": { "@type": "GeoCoordinates", "latitude": "35.5910086", "longitude": "139.6813597" },
+    "sameAs": ["https://www.instagram.com/yukigayaootukafukuzushi/"]
+  }
+  </script>
+</head>
+<body class="bg-white text-gray-900">
+  <!-- 編集: ヘッダーのロゴ・店名・サブタイトル -->
+  <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+    <div class="container mx-auto px-4 py-6 flex items-center justify-center">
+      <div class="w-full text-center">
+        <div class="inline-flex items-center justify-center mb-2">
+          <div class="w-16 h-16 border-2 border-gray-800 rounded-full flex items-center justify-center bg-white mx-auto">
+            <div>
+              <div class="text-2xl text-gray-900 leading-none">福</div>
+              <div class="text-xs text-shuiro leading-none">寿司</div>
+            </div>
+          </div>
+        </div>
+        <h1 class="font-serif text-3xl text-gray-900 tracking-widest mb-1 hidden md:block">福寿司</h1>
+        <div class="flex items-center justify-center space-x-2">
+          <div class="w-8 h-px bg-shuiro"></div>
+          <p class="text-xs text-gray-600 tracking-widest">FUKUZUSHI</p>
+          <div class="w-8 h-px bg-shuiro"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="pt-38">
+    <!-- 編集: ヒーロー画像（assets/carousel配下の画像を全て表示） -->
+    <section class="mt-100 slider relative w-full overflow-hidden">
+      <div id="slider-container" class="w-full h-full"></div>
+    </section>
+    <!-- Instagram自動更新: SnapWidget埋め込み例 -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="font-serif font-bold text-5xl text-gray-900 tracking-wide mb-4">地元に根ざして60年</h2>
+          <p class="font-serif text-2xl text-gray-900 tracking-wide mb-2">旬とお酒を楽しめる町寿司</p>
+        </div>
+        <div class="w-full flex justify-center items-center">
+          <!-- 編集: SnapWidgetのiframeコードを差し替え可 -->
+          <iframe src="https://snapwidget.com/embed/1107122" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;width:100%;max-width:960px;height:480px;display:block" title="Instagram Gallery"></iframe>
+        </div>
+        <div class="text-center mt-12">
+          <div class="inline-flex items-center space-x-3 text-gray-700">
+            <div class="w-12 h-px bg-gray-300"></div>
+            <a href="https://www.instagram.com/yukigayaootukafukuzushi/" target="_blank" rel="noopener noreferrer" class="text-sm tracking-wider text-shuiro hover:underline">@yukigayaootukafukuzushi</a>
+            <div class="w-12 h-px bg-gray-300"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 店舗情報 -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="rounded-2xl border border-gray-200 bg-white p-8 shadow-md">
+            <div class="text-center mb-16">
+              <h2 class="text-4xl mb-6 text-gray-900 font-serif">店舗情報</h2>
+              <div class="flex items-center justify-center space-x-4">
+                <div class="w-16 h-px bg-gray-300"></div>
+                <div class="w-2 h-2 bg-shuiro rounded-full"></div>
+                <div class="w-16 h-px bg-gray-300"></div>
+              </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+              <div class="space-y-12">
+                <div>
+                  <h3 class="text-xl mb-4 text-gray-900 font-serif border-b border-gray-200 pb-2">営業時間</h3>
+                  <div class="space-y-3 text-gray-700 w-full max-w-xs mx-auto">
+                    <p>11:30〜14:00</p>
+                    <p>17:00〜22:00（日による）</p>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-xl mb-4 text-gray-900 font-serif border-b border-gray-200 pb-2">定休日</h3>
+                  <div class="space-y-3 text-gray-700 w-full max-w-xs mx-auto">
+                    <p>昼：月曜日（その他不定休）</p>
+                    <p>夜：月曜日（月に一度連休）</p>
+                    <p class="text-sm text-gray-600 mt-3">
+                      <span class="inline-block w-2 h-2 bg-shuiro rounded-full mr-2"></span>
+                      休日はInstagramにてお知らせしております
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="space-y-12">
+                <div>
+                  <h3 class="text-xl mb-4 text-gray-900 font-serif border-b border-gray-200 pb-2">座席数</h3>
+                  <div class="space-y-3 text-gray-700 w-full max-w-xs mx-auto">
+                    <p>カウンター：12席</p>
+                    <p>テーブル：8席</p>
+                    <p>座敷：最大20名まで1部屋</p>
+                  </div>
+                </div>
+                <div>
+                  <h3 class="text-xl mb-4 text-gray-900 font-serif border-b border-gray-200 pb-2">お問い合わせ・ご予約</h3>
+                  <div class="space-y-3 text-gray-700 w-full max-w-xs mx-auto">
+                    <a href="tel:0337295047" class="text-lg inline-block text-gray-900 hover:underline transition cursor-pointer">TEL: 03-3729-5047</a>
+                    <p class="text-sm text-gray-600 mt-3">
+                      <span class="inline-block w-2 h-2 bg-shuiro rounded-full mr-2"></span>
+                      ご予約は当日でも可能
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Google Map -->
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
+            <div class="aspect-video w-full" style="height:auto;min-height:200px;max-width:100%">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.4887517894426!2d139.6813597!3d35.591008599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f54f665e4647%3A0xbeab784c839b1ce4!2z56aP5a-_5Y-4!5e0!3m2!1sja!2sjp!4v1757159521775!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;min-height:200px;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="福寿司地図"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-white text-gray-900 pt-0 pb-4 w-full">
+    <div class="text-center">
+      <div class="mb-8 w-full overflow-hidden">
+        <div id="footer-images" class="flex flex-row flex-nowrap justify-between items-center w-full overflow-x-auto scrollbar-hide"></div>
+      </div>
+      <div class="mb-8">
+        <div class="inline-flex items-center justify-center mb-4">
+          <div class="w-16 h-16 border-2 border-gray-800 rounded-full flex items-center justify-center bg-white mx-auto">
+            <div>
+              <div class="text-2xl text-gray-900 leading-none">福</div>
+              <div class="text-xs text-shuiro leading-none">寿司</div>
+            </div>
+          </div>
+        </div>
+        <h3 class="font-serif text-3xl text-gray-900 tracking-widest mb-2">福寿司</h3>
+        <div class="flex items-center justify-center space-x-2">
+          <div class="w-8 h-px bg-shuiro"></div>
+          <p class="text-xs text-gray-600 tracking-widest">FUKUZUSHI</p>
+          <div class="w-8 h-px bg-shuiro"></div>
+        </div>
+      </div>
+      <div class="border-t border-gray-200 pt-4 relative">
+        <div class="text-xs text-gray-500 text-center w-full">© 2025 福寿司 All rights reserved.</div>
+        <div class="w-full flex justify-center mt-2">
+          <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'})" class="inline-block p-2 rounded-full shadow hover:bg-gray-100 transition" aria-label="Page Top">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8 text-gray-900">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="public/index.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

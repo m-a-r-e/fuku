@@ -1,0 +1,59 @@
+/* Swiperドット色を白に */
+.swiper-pagination-bullet {
+  background: #fff !important;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+  opacity: 1;
+  box-shadow: 0 0 0 2px #e5e7eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Serif JP', 'Hiragino Mincho ProN', 'Yu Mincho', 'YuMincho', 'HiraMinProN-W3', 'HiraMinProN-W6', 'MS PMincho', 'MS Mincho', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Tailwindで代用できないカスタムCSS */
+.fade {
+  background-color: #fafafa;
+  color: #2c2c2c;
+}
+.slider-img {
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  #root {
+    min-height: 100vh;
+    position: relative;
+  }
+
+  /* スクロールバーのカスタマイズ */
+  ::-webkit-scrollbar {
+    width: 12px;
+    background: #fff;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #222;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 107, 107, 0.8);
+  }
+  /* Firefox用 */
+  html {
+    scrollbar-color: #222 #fff;
+    scrollbar-width: thin;
+  }
+}
